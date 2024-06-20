@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>传播学网站</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+
+        .headers {
+            background-color: #e6ffe6;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #666;
+            font-size: 16px;
+        }
+
+        .nav a.active {
+            color: #0066ff;
+            border-bottom: 2px solid #0066ff;
+            padding-bottom: 5px;
+        }
+
+        .main-content {
+            display: flex;
+
+            padding: 20px;
+            background-color: #e6ffe6;
+            gap: 30px;
+        }
+
+        .links-section {
+            flex: 1;
+            margin-right: 20px;
+        }
+
+        .links-section ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .links-section ul li {
+            margin: 10px 0;
+        }
+
+        .links-section ul li a {
+            text-decoration: none;
+            color: #000;
+            font-size: 16px;
+        }
+
+        .links-section img {
+            width: 100%;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+
+        .info-sections {
+            display: flex;
+            flex-wrap: wrap;
+            flex: 2;
+            gap: 20px;
+        }
+
+        .info-box {
+            background-color: #ffffcc;
+            flex: 1;
+            min-width: 200px;
+            height: 150px;
+            border-radius: 10px;
+            padding: 10px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 18px;
+            color: #666;
+        }
+
+
+    </style>
+</head>
+<body>
+<nav class="navbar">
+    <div class="nav-left">
+        <a href="#" class="back-button">&#8249;</a>
+    </div>
+    <div class="nav-center">
+        <span class="nav-title">传播学网站</span>
+    </div>
+    <div class="nav-right">
+        <a href="#" class="menu-button">&#8942;</a>
+    </div>
+</nav>
+<header class="header">
+    <div class="search-bar">
+
+        <input type="text" placeholder="搜索">
+        <button class="search-button">&#128269;</button>
+    </div>
+</header>
+
+<img src="top.jpg" width="100%" style="height: 200px;">
+<header class="headers">
+    <nav class="nav">
+        <a href="#" class="active">首页</a>
+        <a href="#">专业概括</a>
+        <a href="#">教学信息</a>
+        <a href="#">学生天地</a>
+        <a href="#">实验建设</a>
+        <a href="#">互动</a>
+    </nav>
+</header>
+<main class="main-content">
+    <div class="links-section" style="flex: 1">
+        <ul style="text-align: center">
+            <li><a href="#">学院链接</a></li>
+            <li><a href="#">学校链接</a></li>
+            <li><a href="#">下载之窗</a></li>
+        </ul>
+        <img src="z1.jpg" alt="Placeholder Image">
+    </div>
+
+    <div class="info-sections" style="flex: 1">
+        <div class="info-box" style="height: 370px">教学信息</div>
+    </div>
+</main>
+<main class="main-content">
+    <div class="info-sections" style="flex: 1">
+        <div class="info-box">学工咨询</div>
+    </div>
+    <div class="info-sections" style="flex: 1">
+        <div class="info-box">专业公告</div>
+    </div>
+</main>
+</body>
+</html>
